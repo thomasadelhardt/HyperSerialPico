@@ -15,7 +15,7 @@ if (NOT PICO_PROGRAM_MAIN_ENTRY)
 	set(OUTPUT_SPI_CLOCK_PIN 2)
 	set(OUTPUT_SPI_INTERFACE spi0)
 
-	# Use multi-segment, starting index of second led strip or OFF to disable, the output data pin will be OUTPUT_DATA_PIN+1
+	# Use multi-segment, starting index of second led strip or OFF to disable, note that the output data pin will be OUTPUT_DATA_PIN+1
 	set(SECOND_SEGMENT_INDEX 100)
 
 	# If multi-segment is used and it's reversed, set this option to ON to enable reversing
